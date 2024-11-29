@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg  position-sticky top-0 z-1 bg-white large Regular shadow py-3">
+        <div class="container">
+            <img src="./imges/Pizza img.png" alt="">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Page
+                        </a>
+
+                    </li>
+
+                </ul>
+                <div class="d-flex">
+                    <button class="btn bg-0 mx-2 fs-5">login</button>
+                    <button class="btn bg-danger  px-3 py-2 fs-6 rounded-5 text-white">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 py-5">
+        <div class="row">
+            <div class=" col-lg-6 col-md-6 col-sm-6">
+                <h1 class="fs-1 fw-bold">Your Favorite Food Delivery Partner</h1>
+                <p class="text-body-secondary mt-3 fs-5">The food at your doorstep. Why starve when you have us. You
+                    hunger partner.
+                    Straight out of the oven to
+                    your doorstep. </p>
+
+
+
+                <div class="d-none d-md-block mt-5">
+                    <form class="d-flex position-relative" role="search">
+                        <input class="form-control me-2 rounded-5 p-3 border-0 bg-light" type="search"
+                            placeholder="Enter your delivery location" aria-label="Enter your delivery location">
+                        <button type="button"
+                            class="btn-color border-0 rounded-5 text-white p-3 fw-bold btn-lg position-absolute end-0 me-2"
+                            style="top: 50%; transform: translateY(-50%);">
+                            Order Now
+                        </button>
+                    </form>
+                </div>
+
+                <div class="d-md-none mt-5">
+                    <form class="d-flex position-relative" role="search">
+                        <input class="form-control me-2 rounded-5 p-3 border-0 bg-light" type="search"
+                            placeholder="Enter your delivery location" aria-label="Enter your delivery location">
+                        <button type="button"
+                            class="btn-color border-0 rounded-5 text-white p-3 fw-bold btn-lg position-absolute end-0 me-2"
+                            style="top: 50%; transform: translateY(-50%);">
+                            Order Now
+                        </button>
+                    </form>
+                </div>
+
+
+                <div class="d-flex mt-5">
+
+                    <button class="bg-light border-0 rounded-3   mb-3 mb-md-0 me-md-3 text-nowrap md-se-text-nowrap ">
+                        <div class="d-flex align-items-center px-2 py-2">
+                            <iconify-icon class="mb-2 me-2 fs-2 " icon="bi:apple"></iconify-icon>
+                            <div class="text-black">
+                                <span class="fs-6">Download on the</span>
+                                <h6 class="me-3 fw-bold fs-5 ">Apple Store</h6>
+
+                            </div>
+                        </div>
+                    </button>
+
+
+
+                    <button class="bg-light border-0 rounded-3 ms-3  mb-3 mb-md-0 me-md-3 text-nowrap ">
+                        <div class="d-flex align-items-center px-2 py-2">
+                            <iconify-icon class="mb-2 me-2 fs-2" icon="logos:google-play-icon"></iconify-icon>
+                            <div class="text-black">
+                                <span class="me-4">GET IT ON</span>
+                                <h5 class="fw-bold">Google Play</h5>
+
+                            </div>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+            <div class=" col-lg-6 col-md-6 col-sm-6">
+                <img class="img-fluid" src="./imges/free delivery img.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container text-center my-5 pt-5">
+        <div>
+            <h1 class="fs-md-1 fw-bold mt-5">MORE THAN <span class="orange-color">10,000</span> DISHES <br> TO ORDER!
+            </h1>
+            <p class="fs-5">Welcome to The Biggest Network of Food Ordering & Delivery</p>
+        </div>
+
+        <div class="container my-5">
+            <div class="row gy-4">
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/Pizza img.png" class="rounded-circle bg-white p-3" alt="Pizza"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class=" text-nowrap md-text-nowrap">Pizza</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/Bargur.png" class="rounded-circle bg-white p-3" alt="Burger"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class=" text-nowrap md-text-nowrap">Burger</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/sushi-img.png" class="rounded-circle bg-white p-3" alt="Sushi"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class=" text-nowrap md-text-nowrap">Sushi</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="pt-3 ps-4 text-start fw-bold fs-5">
+                            <h6 class=" fw-bold fs-6">Find <span class="orange-color ">deals</span>, <span
+                                    class="text-success">free
+                                    delivery</span>, and more <br>from our restaurant partners.</h6>
+                        </div>
+                        <div class="text-end pe-4">
+                            <img width="192.13px" height=" 116.77px" class="img-fluid="
+                                src="./imges/Illustrations-bike.png" alt="Delivery Illustration">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mt-5">
+                <div class="col-12 col-md-6 text-start">
+                    <div>
+                        <img width="50px" height="40px" src="./imges/Vector-img.png" alt="">
+                    </div>
+                    <div class="fs-5 pt-3 text-body-secondary ">
+                        <p>“Lorem ipsum dolor sit amet, consectetur <br>
+                            adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.”
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/pasta-img.png" class="rounded-circle bg-white p-3" alt="Pasta"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center">
+                            <h6 class="fw-bold text-nowrap md-text-nowrap">Pasta</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/salad-img.png" class="rounded-circle bg-white p-3" alt="Salad"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h6 class=" fw-bold text-nowrap md-text-nowrap">Salad</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="card bg-light rounded-5 border-0 p-3">
+                        <div class="text-center py-3">
+                            <img src="./imges/desserts-img.png" class="rounded-circle bg-white p-3" alt="Desserts"
+                                style="width: 68px;">
+                        </div>
+                        <div class="card-body text-center ">
+                            <h6 class=" fw-bold text-nowrap md-text-nowrap">Desserts</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" text-center my-5 py-4">
+        <h1 class=" fs-md-1 fw-bold">How To Order?</h1>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 text-center">
+                <div class="bg-light py-3 border-0 rounded-4">
+
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid card-img d-flex justify-content-center w-25 bg-white rounded-4 mt-4 py-3 px-3"
+                            src="./imges/lolepop.png" alt="...">
+                    </div>
+                    <div>
+                        <p class="mt-5 fs-4 fw-bold text-center">Choose your <br> location</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 text-center">
+                <div class="bg-light py-3 border-0 rounded-4">
+
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid card-img d-flex justify-content-center w-25 bg-white rounded-4 mt-4 py-3 px-3"
+                            src="./imges/boy-img.png" alt="...">
+                    </div>
+                    <div>
+                        <p class="mt-5 fs-4 fw-bold text-center">Choose what <br> to eat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 text-center">
+                <div class="bg-light py-3 border-0 rounded-4">
+
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid card-img d-flex justify-content-center w-25 bg-white rounded-4 mt-4 py-3 px-3"
+                            src="./imges/Bargur.png" alt="...">
+                    </div>
+                    <div>
+                        <p class="mt-5 fs-4 fw-bold text-center">May your first <br> order</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-4 text-center">
+                <div class="bg-light py-3 border-0 rounded-4">
+
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid card-img d-flex justify-content-center w-25 bg-white rounded-4 mt-4 py-3 px-3"
+                            src="./imges/house-img.png" alt="...">
+                    </div>
+                    <div>
+                        <p class="mt-5 fs-4 fw-bold text-center">Now! Your <br> food in way</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" text-center my-5 py-4">
+        <h1 class="fw-bold mt-5 text-black">Our Clients Feedback</h1>
+        <p class="text-black fs-5 mt-5">The food at your doorstep. Why starve when you have us. You hunger <br> partner.
+            Straight out of the oven to your doorstep.</p>
+        <img class="mt-5" src="./imges/Vector2-img.png" alt="">
+
+        <p class="text-black fs-4 fst-italic fw-bold mt-5">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do <br> eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi”</p>
+
+        <h4 class="text-black fs-3 fw-bold mt-5">Mitchell Marsh</h4>
+        <span class="text-secondary fs-5 mt-5">CEO, Bexon Agency</span>
+
+
+        <div class="mt-5 pt-4">
+            <img class="bg-body-secondary rounded-circle px-4 py-4" src="./imges/Vector -3.png" alt="">
+
+            <img class="btn-color rounded-circle px-4 py-4 mx-4" src="./imges/vector-4.png" alt="">
+        </div>
+
+    </div>
+
+
+    <div class="bg-danger-subtle">
+        <div class="container mt-5 py-5">
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h1 class="fw-bold text-black">Subscribe our newsletter</h1>
+                    <p class="text-black fs-6 mt-3">Browse local restaurants and businesses for delivery by entering
+                        your address blow.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="d-none d-md-block">
+                        <form class="d-flex position-relative" role="search">
+                            <input class="form-control me-2 rounded-5 p-3 border-0 bg-light" type="search"
+                                placeholder="Enter your delivery location" aria-label="Enter your delivery location">
+                            <button type="button"
+                                class="btn-color border-0 rounded-5 text-white p-3 px-4 fw-bold btn-lg position-absolute end-0 me-2"
+                                style="top: 50%; transform: translateY(-50%);">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="d-md-none">
+                        <form class="d-flex position-relative" role="search">
+                            <input class="form-control me-2 rounded-5 p-3 border-0 bg-light" type="search"
+                                placeholder="Enter your delivery location" aria-label="Enter your delivery location">
+                            <button type="button"
+                                class="btn-color border-0 rounded-5 text-white p-3 px-4 fw-bold btn-lg position-absolute end-0 me-2"
+                                style="top: 50%; transform: translateY(-50%);">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bg-black">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="./imges/Pizza img.png" alt="" class="img-fluid">
+
+                    <div class="mt-5 d-flex flex-colum flex-wrap flex-md-row">
+
+
+                        <button
+                            class="bg-light border-0 rounded-3 ms-1 mb-3 mb-md-0 me-md-3 text-nowrap sm-text-nowrap ms-2">
+                            <div class="d-flex align-items-center px-2">
+                                <iconify-icon class="mb-2 me-2 fs-1" icon="ri:apple-fill"></iconify-icon>
+                                <div class="text-white">
+                                    <span class="text-black">Download on the</span>
+                                    <h5 class="me-3 text-black fw-bold"> Apple Store</h5>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button
+                            class="bg-light border-0 rounded-3 ms-3  mb-3 mb-md-0 me-md-3 text-nowrap sm-text-nowrap">
+                            <div class="d-flex align-items-center px-2">
+                                <iconify-icon class="mb-2 me-2 fs-1" icon="logos:google-play-icon"></iconify-icon>
+                                <div class="text-white">
+                                    <span class="me-4 text-black">GET IT ON</span>
+                                    <h5 class="text-black fw-bold">Google play</h5>
+                                </div>
+                            </div>
+
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="d-flex flex-column flex-md-row justify-content-between text-white">
+                        <div class="mb-4 mb-md-0">
+                            <h5 class="fw-bold">Quick links</h5>
+                            <ul class="list-unstyled mt-4">
+                                <li class="text-secondary">Features</li>
+                                <li class="my-2 text-secondary">Food Menu</li>
+                                <li class="text-secondary">Offer</li>
+                                <li class="my-2 text-secondary">Review</li>
+                                <li class="text-secondary">Rider</li>
+                            </ul>
+                        </div>
+                        <div class="mb-4 mb-md-0">
+                            <h5 class="fw-bold">Get to Know Us</h5>
+                            <ul class="list-unstyled mt-4">
+                                <li class="text-secondary">Gift Cards</li>
+                                <li class="my-2 text-secondary">DoorDash Stories </li>
+                                <li class="text-secondary">LinkedIn</li>
+                                <li class="my-2 text-secondary">Glassdoor</li>
+                                <li class="text-secondary">Accessibility</li>
+                            </ul>
+                        </div>
+                        <div class="mb-4 mb-md-0">
+                            <h5 class="fw-bold">News</h5>
+                            <ul class="list-unstyled mt-4">
+                                <li class="text-secondary">Blog</li>
+                                <li class="my-2 text-secondary">FAQ</li>
+                                <li class="text-secondary">Lift Media </li>
+                                <li class="my-2 text-secondary">Press</li>
+                                <li class="text-secondary">Presse kit</li>
+                            </ul>
+                        </div>
+                        <div class="mb-4 mb-md-0">
+                            <h5 class="fw-bold">Contact</h5>
+                            <ul class="list-unstyled mt-4">
+                                <li class="my-2 text-secondary">WhatsApp</li>
+                                <li class="text-secondary">Support 24</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row align-items-center mt-5">
+                <!-- Footer text -->
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-secondary mb-0">© 2023 Pizza. All rights reserved</p>
+                </div>
+        
+                <!-- Footer links -->
+                <div class="col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end flex-wrap gap-3 mt-3 mt-md-0">
+                        <li><a href="#" class="text-secondary text-decoration-none">Privacy</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Policy</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Terms</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>
